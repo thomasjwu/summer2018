@@ -20,4 +20,7 @@ https://www.pygame.org/wiki/2DVectorClass
 6. Definition of A Random Walker:
 https://www.youtube.com/watch?v=rqecAdEGW6I&t=1s
 
-
+7. Further References:
+   - Pac-Man AI: https://www.youtube.com/watch?v=ICwzQ0_RCcQ
+   - A* Algorithm: http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
+   - A* Algorithm with Binary Heap: http://code.activestate.com/recipes/578919-python-a-pathfinding-with-binary-heap/
