@@ -15,7 +15,7 @@ Notes:
 
 * In pygame, we can use the following method to draw a pixel.
 
-def pixel(surface, color, pos):
+def drawPixel(surface, color, pos):
     surface.fill(color, (pos, (1,1)))
 
 
