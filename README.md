@@ -17,6 +17,7 @@ https://www.pygame.org/docs/genindex.html
 5. 2D Vector Class:
 https://www.pygame.org/wiki/2DVectorClass
 
-6. Random Walker Algorithm:
+6. Definition of A Random Walker:
+https://www.youtube.com/watch?v=rqecAdEGW6I&t=1s
 
 
