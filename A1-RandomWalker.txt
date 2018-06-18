@@ -1,0 +1,26 @@
+# An Algorithm For A Random Walker
+
+Step 1. Draw a pixel at the initial position p := (x0, y0)
+Step 2. Randomly generate an integer n between 0 and 3.
+Step 3. Consider the following cases:
+        (i) If n = 0, then our new position p := p + (1, 0)
+       (ii) If n = 1, then our new position p := p + (-1, 0)
+      (iii) If n = 2, then our new position p := p + (0, 1)
+       (iv) If n = 3, then our new position p := p + (0, -1)
+Step 4. Draw a pixel at the position p.
+Step 5. Go back to the step 2.
+
+
+Notes:
+
+* In pygame, we can use the following method to draw a pixel.
+
+def pixel(surface, color, pos):
+    surface.fill(color, (pos, (1,1)))
+
+
+* In python, we can generate random integers by using randint method in the random library:
+
+import random
+
+print random.randint(0,5)
